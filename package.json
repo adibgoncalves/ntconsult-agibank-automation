@@ -1,0 +1,16 @@
+{ 
+  "name": "ntconsult-agibank-automation", 
+  "version": "1.0.0", 
+  "description": "", 
+  "main": "index.js", 
+  "scripts": { 
+    "start": "npx serverest", 
+    "test": "npx serverest && npx cypress run" 
+  }, 
+  "keywords": [], 
+  "author": "Adib Gonçalves", 
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.9.0"
+  }
+}
